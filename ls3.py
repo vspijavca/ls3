@@ -25,9 +25,21 @@ while True:
         print("Вы ввели не число!")
 
 try:
+    sum = a + b
+    print("sum", sum)
+    dif = a - b
+    print("dif", dif)
     mul = a * b
     print("mul", mul)
     div = a / b
     print("div", div)
 except ZeroDivisionError:
         print("Деление на 0 невозможно, укажите другое число Б")
+
+
+
+
+
+
+
+
